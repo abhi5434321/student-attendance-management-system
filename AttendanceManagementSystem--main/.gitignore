@@ -1,0 +1,82 @@
+# Compiled class file
+*.class
+*.jar
+*.war
+
+# Log file
+*.log
+
+# BlueJ generated
+.bluej
+
+# Mobile Tools for Java (J2ME)
+*.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Miscellaneous
+*.backup
+*.cache
+*.dist
+thumbs.db
+*.tmp
+*~
+.DS_Store
+
+# System Files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+VolumeLabel.cache
+
+# eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+.cproject
+.jsdtscope
+.tern-project
+.springBeans
+sts4-cache/
+
+# idea
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+# maven
+target/
+!.mvn
+.mvn
+
+# gradle
+.gradle
+build/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Icon?

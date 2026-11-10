@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Diagnostic</title>
+</head>
+<body>
+    <h1>System Diagnostic</h1>
+    
+    <h2>Test Links:</h2>
+    <ul>
+        <li><a href="./index.html">Home Page</a></li>
+        <li><a href="admin/adminLogin.jsp">Admin Login</a></li>
+        <li><a href="teacher/teacherLogin.jsp">Teacher Login</a></li>
+        <li><a href="testRegister.html">Test Registration Form</a></li>
+    </ul>
+    
+    <h2>Direct Servlet Tests:</h2>
+    <form action="./login" method="post">
+        <input type="hidden" name="userType" value="admin">
+        <input type="email" name="email" value="admin@example.com">
+        <input type="password" name="password" value="admin123">
+        <input type="submit" value="Test Login Servlet">
+    </form>
+    
+    <br>
+    
+    <form action="./register" method="post">
+        <input type="hidden" name="userType" value="admin">
+        <input type="text" name="name" value="Test Admin">
+        <input type="email" name="email" value="test@test.com">
+        <input type="password" name="password" value="test123">
+        <input type="password" name="confirmPassword" value="test123">
+        <input type="submit" value="Test Register Servlet">
+    </form>
+</body>
+</html>
